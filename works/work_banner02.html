@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iwa portfolio</title>
+  <!-- リセットCSS -->
+  <link rel="stylesheet" href="../styles/vendors/destyle.css">
+  <!-- Bootstrap gridのみ -->
+  <link rel="stylesheet" href="../styles/vendors/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="../styles/style.css">
+  <!-- AdobeFont読み込み -->
+  <link rel="stylesheet" href="https://use.typekit.net/jur3ffv.css">
+</head>
+<body>
+  <div class="global-container">
+    <div class="loading">
+      <div class="spinner"><span class="spinner-text bold">Loading...</span></div>
+    </div>
+    <header class="header">
+      <div class="header-inner">
+          <h1 class="header-logo">
+            <a href="../index.html">
+              <img src="../images/logo_header.svg" alt="ロゴ">
+            </a>
+          </h1>
+        <nav class="header-nav">
+          <ul class="header-menu">
+            <li class="header-menu__item bold"><a href="../index.html">Home</a>
+            </li>
+            <li class="header-menu__item bold"><a href="../about.html">About</a>
+            </li>
+            <li class="header-menu__item bold"><a href="../works.html">Works</a></li>
+          </ul>
+        </nav>
+        <div class="mobile-menu__bg"></div>
+        <div class="mobile-menu__cover"></div>
+        <button class="mobile-menu__btn">
+          <span></span>
+          <span></span>
+          <span></span>
+          <p class="medium mobile-menu__text"></p>
+        </button>
+      </div>
+      <nav class="mobile-menu">
+        <ul class="mobile-menu__main">
+          <li class="mobile-menu__item bold">
+            <a class="mobile-menu__link" href="../index.html">Home</a>
+          </li>
+          <li class="mobile-menu__item bold">
+            <a class="mobile-menu__link" href="../about.html">About</a>
+          </li>
+          <li class="mobile-menu__item bold">
+            <a class="mobile-menu__link" href="../works.html">Works</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="inner">
+      <section class="works-page">
+        <div class="wrapper">
+          <div class="work-details-container">
+            <div class="work-details-img">
+              <img src="../images/works_banner02.jpg" alt="">
+            </div>
+            <table class="work-details-table">
+              <tr>
+                <th>作品名</th>
+                <td>家具のセールバナー(架空)</td>
+              </tr>
+              <tr>
+                <th>サイズ</th>
+                <td>350×200px</td>
+              </tr>
+              <tr>
+                <th>制作期間</th>
+                <td>3時間（1日作業）</td>
+              </tr>
+              <tr>
+                <th>担当作業</th>
+                <td>デザイン</td>
+              </tr>
+              <tr>
+                <th>制作の目的</th>
+                <td>
+                バナーからキャンペーン概要ページに来てもらい、実際に購入してもらうことを目的としました。
+                </td>
+              </tr>
+              <tr>
+                <th>ターゲット</th>
+                <td>20代から50代と幅広い層の男女</td>
+              </tr>
+              <tr>
+                <th>ペルソナ</th>
+                <td>20代から40代の男女、一人暮らしやカップルなどフットワークの軽い方など</td>
+              </tr>
+              <tr>
+                <th>作品説明</th>
+                <td>
+                  新生活応援セールなので春らしい色を目立たせたい箇所に使用しました。<br>
+                  50％オフになることがわかるよう、目立たせ周囲の文字組も工夫しました。ベタ塗りの文字が多く、重々しくなってしまわぬよう線文字にしたり、図形と合わせて切り抜いたりしました。<br>
+                  期間も見落とさないよう、太く読みやすいゴシック体を使用しました。<br>
+                  右下にはサイトに誘導できるようにボタンを配置しました。
+                </td>
+              </tr>
+              <tr>
+                <th>使用ツール</th>
+                <td>Photoshop,Illustrator</td>
+              </tr>
+            </table>
+            <button class="btn bold" onclick="location.href='../works.html'">一覧に戻る<span class="btn-arrow"></span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-inner">
+        <h1 class="footer-logo">
+          <a href="../index.html">
+            <img src="../images/logo_footer.svg" alt="フッターロゴ">
+          </a>
+        </h1>
+        <nav class="footer-nav">
+          <ul class="footer-menu">
+            <li class="footer-menu__item bold"><a href="../index.html">Home</a>
+            </li>
+            <li class="footer-menu__item bold"><a href="../about.html">About</a>
+            </li>
+            <li class="footer-menu__item bold"><a href="../works.html">Works</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="copyright">&copy; 2021 Iwamoto Hayate Inc.</p>
+    </footer>
+    <div class="pageTopTrigger">
+      <div id="page-top">
+        <a href="#">
+        </a>
+      </div>
+    </div>
+  </div>
+  <script src="../scripts/vendors/scroll-polyfill.js"></script>
+  <script src="../scripts/libs/scroll.js"></script>
+  <script src="../scripts/main.js"></script>
+</body>
+</html>
